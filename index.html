@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Главная</title>
+</head>
+<body>
+    <div id="shadow" class="shadow"></div>
+    <div id="shadow-choice" class="shadow-choice"></div>
+    <header class="header">
+        <button onclick="menu()" class="burger-btn"><img src="иконки/меню.png" alt="" class="burger-img"></button>
+        <a class="links-logo" href=""><img class="logo" src="иконки/лого.png" alt=""></a>
+        <a class="vmeste" href="">vmeste</a>
+        <form class="form" action="">
+            <div class="group">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+                    <path
+                      d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                    ></path>
+                </svg>
+                <input class="input" type="search" spellcheck="true" placeholder="Поиск" />
+            </div>
+        </form>
+        <div id="creation" class="creation">
+            <button onclick="" class="notification-btn"><img class="notification-img" src="иконки/уведомления.png" alt=""></button>
+            <button onclick="addDiv()" class="add-btn"><img class="add-img" src="иконки/плюс.png" alt=""></button>
+        </div>
+        <button onclick="" class="notification-btn-mobil"><img class="notification-img-mobil" src="иконки/уведомления.png" alt=""></button>
+        <button onclick="addDiv()" class="add-btn-mobil"><img class="add-img-mobil" src="иконки/плюс.png" alt=""></button>
+        <button id="acaunt" onclick="menuUser()" class="acaunt"></button>
+    </header>
+    <div id="add-div" class="add-div">
+        <a href="" class="a">Добавть видео</a><br>
+        <a href="" class="a">Начать трансляцию</a><br>
+        <a href="" class="a">Сделать историю</a><br>
+    </div>
+    <div id="menu-user" class="menu-user">
+        <div class="warp3">
+        <h3 class="title">Ваш аккаунт</h3><br>
+            <div class="links2">
+                <a href="" id="user-acaunt" class="a">Посмотреть канал</a><br>
+                <a href="" class="a">Мои истории</a><br>
+                <a class="theme3" href="">Тема:</a>
+                <button onclick="" id="theme" class="theme2">темная</button><br>
+                <a class="a" href="">Кошелек</a><br>
+                <a class="a" href="">Помощь</a><br>
+                <a href="" class="a">Настройки</a><br>
+                <a href="" class="a">Сообщить о ошибке</a><br>
+                <a class="a" href="">Выйти</a>
+            </div>
+        </div>
+    </div>
+    <div id="menu" class="menu">
+        <ul>
+            <li><a id="a1" href="" class="a"><img id="glav-icon" class="icons" src="иконки/главная.png" alt="">Главная</a></li>
+                <li><a href="" class="a"><img class="icons" src="иконки/книга.png" alt="">Библиотека</a></li>
+                    <li><a href="" class="a"><img class="icons" src="иконки/музыка.png" alt="">Музыка</a></li>
+                    <li><a href="" class="a"><img class="icons" src="иконки/фильмы.png" alt="">Кинотеатр</a><br></li>
+                    <li><a href="" class="a"><img class="icons" src="иконки/трансляции.png" alt="">Трансляции</a><br></li>
+                <li><a href="" class="a"><img class="icons" src="иконки/звезда.png" alt="">Премиум</a><br></li>
+            <li><a href="" class="a"><img class="icons" src="иконки/избранное.png" alt="">Избранное</a></li>
+        </ul>
+    <hr class="hr">
+    <div id="user-you" class="user-you">
+        <ul>
+            <li><button class="btn-you"><a class="a-you" href=""></a>Вы <img class="you" src="иконки/стрелка в право.png" alt=""></button></li>
+                <li><a href="" class="a"><img class="icons-you" src="иконки/истории.png" alt="">Истории</a><br></li>
+                    <li><a href="" class="a"><img class="icons-you" src="иконки/плейлисты.png" alt="">Плейлисты</a></li>
+                    <li><a href="" class="a"><img class="icons-you" src="иконки/ваши видео.png" alt="">Ваши видео</a></li>
+                <li><a href="" class="a"><img class="icons-you" src="иконки/смотреть позже.png" alt="">Смотреть позже</a></li>
+            <li><a href="" class="a"><img class="icons-you" src="иконки/лайк.png" alt="">Понравившиеся</a></li>
+        </ul>
+    </div>
+    </div>
+    <div id="menu-icon" class="menu-icon">
+        <ul>
+            <li><img title="Главная" id="glav-icon2" class="icons" src="иконки/главная.png" alt=""></li>
+                <li><img title="Библиотека" class="menu-icons" src="иконки/книга.png" alt=""></li>
+                    <li><img title="Музыка" class="menu-icons" src="иконки/музыка.png" alt=""></li>
+                    <li><img title="Кинотеатр" class="menu-icons" src="иконки/фильмы.png" alt=""></li>
+                    <li><img title="Трансляции" class="menu-icons" src="иконки/трансляции.png" alt=""></li>
+                <li><img title="Премиум" class="menu-icons" src="иконки/звезда.png" alt=""></li>
+            <li><img title="Избранное" class="menu-icons" src="иконки/избранное.png" alt=""></li>
+        </ul>
+        <div class="user-you-icon">
+            <ul>
+                <li><img title="Вы" class="menu-icons" src="иконки/user.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <div id="registration-main" class="registration-main">
+        <div id="registration" class="registration">
+                <h3 class="welcome">Добро пожаловать!</h3>
+                <h1 class="description">Введите имя и пароль и <br>начните смотреть видео, фильмы,<br> 
+                    слушать музыку<br> 
+                    и читать книги прямо сейчас </h1>
+            <div class="reg">
+                <div class="reg-input2">
+                    <label for="usernameField" class="usernamelabel label">Username</label>
+                    <input type="text" placeholder="@" id="usernameField" required="required">
+                </div>
+                <div class="reg-input">
+                    <label for="usernameField" class="usernamelabel label">Password</label>
+                    <input type="password" placeholder="" id="usernameFiel" required="required">
+                </div>
+            <button onclick="registrationLogin()" class="login">Войти</button>
+            <button onclick="registrationSignup()" class="signup">Зарегистрироваться</button>
+        </div>
+    </div>
+    </div>
+    <div id="story-this" class="story-this">
+        vmeste это-<br>
+        гибкий видеохостинг 
+        <br>в котором вы сможете
+        <br> слушать музыку,
+        <br>смотреть фильмы и видео,
+        <br>читать книги 
+        <br> все это абсолютно бесплатно 
+        <br>и главное легально
+    </div>
+    <div id="menu-mobill" class="menu-mobill">
+        <div class="warp3">
+        <h3 class="title2">Сервисы</h3><br>
+            <div class="links2">
+                <ul>
+                    <li><a class="a" href="">Кинотеатр</a></li>
+                        <li><a class="a" href="">Музыка</a></li>
+                            <li><a class="a" href="">Избранное</a></li>
+                        <li><a class="a" href="">Премиум</a></li>
+                    <li><a class="a" href="">Кошелек</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mobill-menu">
+        <ul>
+            <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/главная.png" alt=""></a></li>
+                <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/ваши видео.png" alt=""></a></li>
+                    <li><a class="mobill-menu-links" href=""><img class="mobil-icon" id="logo-mobil" src="иконки/лого.png" alt=""></a></li>
+                <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/поиск.png" alt=""></a></li>
+            <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/user.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div id="choice" class="choice">
+        <button class="btn-cross"><img class="img-cross" src="иконки/крест.png" alt=""></button>
+        <button class="selectfile-btn"><input class="selectfile" type="file"></button>
+        <input class="input-choice" type="text" placeholder="Напишите описание">
+    </div>
+</body>
+</html>
