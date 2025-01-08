@@ -29,7 +29,7 @@ function registrationSignup() {
     let user = document.getElementById("usernameFiel").value
     let user2 = document.getElementById("usernameField").value
     let shadow = document.getElementById("shadow")
-    let storythis = document.getElementById("story-this")
+    let storythis = document.getElementById("vmeste-this")
     let registration = document.getElementById("registration");
     registration.style.display = "none"
     shadow.style.display = "none"
@@ -43,7 +43,7 @@ function registrationLogin() {
     let user = document.getElementById("usernameFiel").value
     let user2 = document.getElementById("usernameField").value
     let shadow = document.getElementById("shadow")
-    let storythis = document.getElementById("story-this")
+    let storythis = document.getElementById("vmeste-this")
     let registration = document.getElementById("registration");
     registration.style.display = "none"
     shadow.style.display = "none"
