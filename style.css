@@ -82,9 +82,9 @@ html,body{
     width: 36px;
     height: 35px;
     border: none;
-    margin-left: 28%;
+    margin-left: 28.5%;
     border-radius: 15px;
-    background-color: rgb(100, 98, 98);
+    background-color: rgb(62, 62, 62);
     cursor: pointer;
     z-index: 1;
 }
@@ -94,9 +94,9 @@ html,body{
   width: 36px;
   height: 35px;
   border: none;
-  margin-left: 25%;
+  margin-left: 27%;
   border-radius: 15px;
-  background-color: rgb(100, 98, 98);
+  background-color: rgb(65, 65, 65);
   cursor: pointer;
   z-index: 1;
 }
@@ -106,7 +106,7 @@ html,body{
   width: 36px;
   height: 35px;
   border: none;
-  margin-left: 22%;
+  margin-left: 26%;
   border-radius: 15px;
   background-color: rgb(100, 98, 98);
   cursor: pointer;
