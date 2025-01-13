@@ -78,37 +78,37 @@ html,body{
 }
 
 .storis{
-    position: absolute;
-    width: 36px;
-    height: 35px;
+  position: absolute;
+    width: 40px;
+    height: 45px;
     border: none;
-    margin-left: 28.5%;
-    border-radius: 15px;
-    background-color: rgb(62, 62, 62);
+    border-radius: 13px;
+    margin-left: 24%;
+    background-color: rgb(95, 95, 95);
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
 }
 
 .storis2{
   position: absolute;
-  width: 36px;
-  height: 35px;
+  width: 40px;
+  height: 45px;
   border: none;
-  margin-left: 27%;
-  border-radius: 15px;
-  background-color: rgb(65, 65, 65);
+  border-radius: 13px;
+  margin-left: 26%;
+  background-color: rgb(79, 79, 79);
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
 }
 
 .storis3{
   position: absolute;
-  width: 36px;
-  height: 35px;
+  width: 40px;
+  height: 45px;
   border: none;
-  margin-left: 26%;
-  border-radius: 15px;
-  background-color: rgb(100, 98, 98);
+  border-radius: 13px;
+  margin-left: 28%;
+  background-color: rgb(65, 65, 65);
   cursor: pointer;
   z-index: 1;
 }
@@ -291,8 +291,25 @@ html,body{
   margin-left: 35%;
   margin-top: -2%;
   border-radius: 5px;
+  animation-name: choice;
+  animation-duration: 700ms;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
   display: none;
   z-index: 3;
+}
+
+@keyframes choice {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .input-choice{
@@ -308,6 +325,18 @@ html,body{
 
 .selectfile-btn:hover{
   background-color:rgb(40, 40, 40);
+}
+
+.send{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: -6%;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .btn-sign{
@@ -356,18 +385,32 @@ html,body{
   animation-timing-function: menu2;
   animation-fill-mode: forwards;
   animation-delay: 0s;
-  z-index: 3;
+  z-index: 2;
 }
 
-.add-div a{
+.add-div button{
   padding-top: 3%;
+  padding-left: 5%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(244, 244, 244);
+  font-size: 18px;
+  transition: .2s;
+}
+
+
+.add-div button:hover{
+  color: rgb(147, 55, 234);
+  border-radius: 4px;
+  transform: translateY(-3px);
 }
 
 .menu-user {
   position: absolute;
   background-color: rgb(57, 57, 57);
   width: 13%;
-  height: 50%;
+  height: 40%;
   margin-left: 87%;
   margin-top: 4.5%;
   border-radius: 13px 0px 0px 13px;
@@ -378,9 +421,26 @@ html,body{
   animation-timing-function: menu2;
   animation-fill-mode: forwards;
   animation-delay: 0s;
+  white-space: nowrap;
   z-index: 3;
   font-size: 17.5px;
   display: none;
+}
+
+.menu-user-btn{
+  padding-top: 2%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(244, 244, 244);
+  font-size: 18px;
+  transition: .2s;
+}
+
+.menu-user-btn:hover{
+  color: rgb(147, 55, 234);
+  border-radius: 4px;
+  transform: translateY(-3px);
 }
 
 @keyframes menu2 {
@@ -404,6 +464,190 @@ html,body{
   margin-left: 13%;
 }
 
+.profile{
+  position: absolute;
+  background-color: #353535;
+  width: 95%;
+  height: 95%;
+  margin-left: 2.5%;
+  margin-top: 1%;
+  border-radius: 10px;
+  display: none;
+  animation-name: profile;
+  animation-duration: 350ms;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  z-index: 4;
+}
+
+@keyframes profile {
+  0% {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.profile-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    display: none;
+    opacity: 0.5;
+    z-index: 4;
+}
+
+.btn-back{
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+  margin-left: 95%;
+  margin-top: 1%;
+}
+
+.img-back{
+  width: 40%;
+}
+
+.icon-profile{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 35px;
+  margin-left: 5%;
+  margin-top: 3%;
+  background-color: rgb(100, 98, 98);
+  cursor: pointer;
+}
+
+.informationProfile{
+  margin-left: 12%;
+  margin-top: 3%;
+  font-size: 25px;
+}
+
+.profile-hr{
+  margin-top: 3%;
+}
+
+.main-settings{
+  position: absolute;
+  background-color: #353535;
+  width: 25%;
+  height: 95%;
+  margin-left: 35%;
+  margin-top: 1%;
+  border-radius: 10px;
+  display: none;
+  animation-name: settings;
+  animation-duration: 350ms;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  z-index: 4;
+}
+
+.p-settings{
+  font-size: 22px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.cross-btn{
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  height: 20%;
+  margin-left: 80%;
+  margin-top: -22%;
+}
+
+.cross-img{
+  width: 45%;
+}
+
+.settingsProfile{
+  font-size: 22.5px;
+  margin-left: 38%;
+  margin-top: 2%;
+}
+
+.icon-profile-settings{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 20%;
+  margin-top: 4%;
+  background-color: rgb(100, 98, 98);
+  cursor: pointer;
+}
+
+.hrSettings{
+  margin-top: 5%;
+}
+
+.btn-settings{
+  padding-top: 4%;
+  padding-left: 15%;
+  background: transparent;
+  display: block;
+  border: none;
+  cursor: pointer;
+  color: rgb(244, 244, 244);
+  font-size: 18px;
+  transition: .2s;
+}
+
+.btn-settings:hover{
+  color: #7d2ae8;
+}
+
+.hr-settings{
+  margin-top: 5%;
+}
+
+.img-settings{
+  position: absolute;
+  width: 5%;
+  margin-left: -7%;
+  margin-top: 0.5%;
+}
+
+@keyframes settings {
+  0% {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.settings-shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    display: none;
+    opacity: 0.5;
+    z-index: 4;
+}
+
 #user-acaunt {
   font-size: 110%;
   font-family: roboto,sans-serif;
@@ -412,7 +656,6 @@ html,body{
 .theme3 {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-left: 4%;
   font-size: 20px;
 }
 
@@ -426,10 +669,6 @@ html,body{
 
 .theme2:hover{
   text-decoration: underline;
-}
-
-.btn-setting {
-  display: none;
 }
 
 .menu {
@@ -855,13 +1094,19 @@ html,body{
     }
   
     .add-div{
-      width: 15%;
+      width: 14%;
       height: 13%;
       margin-top: 4%;
     }
   
     .add-div a{
       font-size: 25px;
+    }
+
+    .main-settings{
+      height: 70%;
+      margin-top: 5%;
+      font-size: 30px;
     }
   
     .registration-main{
@@ -939,6 +1184,16 @@ html,body{
   
     .add-div{
       width: 18%;
+      margin-left: 82%;
+    }
+
+    .choice{
+      margin-top: -10%;
+    }
+
+    .main-settings{
+      height: 70%;
+      margin-top: 7%;
     }
   }
 
@@ -963,11 +1218,28 @@ html,body{
   }
   
   .creation{
-    margin-left: -56%;
+    margin-left: -60%;
   }
   
   .creation img{
     width: 200%;
+  }
+
+  .main-settings{
+    width: 40%;
+  }
+
+  .settings{
+    font-size: 30px;
+  }
+
+  .choice{
+    margin-top: -20%;
+    width: 35%;
+  }
+
+  .send{
+    margin-left: -10%;
   }
   
   .acaunt{
@@ -996,7 +1268,7 @@ html,body{
   
   .add-div{
     width: 20%;
-    margin-left: 75%;
+    margin-left: 80%;
     margin-top: 7%;
   }
   
@@ -1184,13 +1456,14 @@ html,body{
 
   .mobill-menu{
     display: block;
-    height: 10%;
+    height: 7.2%;
     margin-top: 220%;
   }
 
   .mobill-menu img{
     width: 6.4%;
     padding-left: 11%;
+    padding-top: 3%;
   }
 
   #logo-mobil{
@@ -1244,7 +1517,7 @@ html,body{
     width: 50%;
     height: 13%;
     margin-left: 50%;
-    margin-top: 10%;
+    margin-top: 10.5%;
   }
 
   .notification-btn-mobil{
@@ -1257,9 +1530,38 @@ html,body{
     width: 1%;
     margin-left: 78%;
   }
+
+  .choice{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 80%;
+    height: 55%;
+    font-size: 30px;
+    z-index: 4;
+  }
+
+  .img-cross{
+    width: 100%;
+  }
+
+  .send{
+    margin-left: -28%;
+    margin-top: 15%;
+  }
+
+  .shadow-choice{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media(max-width:360px){
+
+  .header{
+    height: 6%;
+  }
 
   .logo{
     display: none;
@@ -1310,8 +1612,8 @@ html,body{
 
   .mobill-menu{
     display: block;
-    height: 10%;
-    margin-top: 250%;
+    height: 7.5%;
+    margin-top: 220%;
   }
 
   #logo-mobil{
@@ -1363,9 +1665,9 @@ html,body{
 
   .add-div{
     width: 60%;
-    height: 15%;
+    height: 13%;
     margin-left: 40%;
-    margin-top: 9%;
+    margin-top: 10%;
   }
 }
 
@@ -1496,5 +1798,10 @@ html,body{
 
   .add-div{
     margin-top: 10%;
+  }
+
+  .send{
+    margin-left: -30%;
+    margin-top: 15%;
   }
 }

@@ -83,3 +83,45 @@ function addDiv() {
         add = 0;
     }
 }
+
+function choicePlus() {
+    let choice = document.getElementById("choice")
+    let shadow = document.getElementById("shadow-choice")
+    shadow.style.display = "block"
+    choice.style.display = "block"
+}
+
+function choice() {
+    let choice = document.getElementById("choice")
+    let shadow = document.getElementById("shadow-choice")
+    shadow.style.display = "none"
+    choice.style.display = "none"
+}
+
+function profile() {
+    let profile = document.getElementById("profile")
+    let shadow = document.getElementById("profile-div")
+    shadow.style.display = "none"
+    profile.style.display = "none"
+}
+
+function profilePlus() {
+    let profile = document.getElementById("profile")
+    let shadow = document.getElementById("profile-div")
+    shadow.style.display = "block"
+    profile.style.display = "block"
+}
+
+function settingsPlus() {
+    let profile = document.getElementById("main-settings")
+    let shadow = document.getElementById("settings-shadow")
+    shadow.style.display = "block"
+    profile.style.display = "block"
+}
+
+function settings() {
+    let profile = document.getElementById("main-settings")
+    let shadow = document.getElementById("settings-shadow")
+    shadow.style.display = "none"
+    profile.style.display = "none"
+}

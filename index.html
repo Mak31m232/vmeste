@@ -10,6 +10,8 @@
 <body>
     <div id="shadow" class="shadow"></div>
     <div id="shadow-choice" class="shadow-choice"></div>
+    <div id="profile-div" class="profile-div"></div>
+    <div id="settings-shadow" class="settings-shadow"></div>
     <header class="header">
         <button onclick="menu()" class="burger-btn"><img src="иконки/меню.png" alt="" class="burger-img"></button>
         <a class="links-logo" href=""><img class="logo" src="иконки/лого.png" alt=""></a>
@@ -36,23 +38,22 @@
         <button id="acaunt" onclick="menuUser()" class="acaunt"></button>
     </header>
     <div id="add-div" class="add-div">
-        <a href="" class="a">Добавть видео</a><br>
-        <a href="" class="a">Начать трансляцию</a><br>
-        <a href="" class="a">Сделать историю</a><br>
+        <button onclick="choicePlus()" class="">Добавть видео</button><br>
+        <button class="">Начать трансляцию</button><br>
+        <button class="">Создать историю</button><br>
     </div>
     <div id="menu-user" class="menu-user">
         <div class="warp3">
         <h3 class="title">Ваш аккаунт</h3><br>
             <div class="links2">
-                <a href="" id="user-acaunt" class="a">Посмотреть канал</a><br>
-                <a href="" class="a">Мои истории</a><br>
+                <button onclick="profilePlus()" href="" id="user-acaunt" class="menu-user-btn">Посмотреть канал</button><br>
                 <a class="theme3" href="">Тема:</a>
                 <button onclick="" id="theme" class="theme2">темная</button><br>
-                <a class="a" href="">Кошелек</a><br>
-                <a class="a" href="">Помощь</a><br>
-                <a href="" class="a">Настройки</a><br>
-                <a href="" class="a">Сообщить о ошибке</a><br>
-                <a class="a" href="">Выйти</a>
+                <button class="menu-user-btn">Кошелек</button><br>
+                <button class="menu-user-btn">Помощь</button><br>
+                <button onclick="settingsPlus()" class="menu-user-btn">Настройки</button><br>
+                <button class="menu-user-btn">Сообщить о ошибке</button><br>
+                <button class="menu-user-btn">Выйти</button>
             </div>
         </div>
     </div>
@@ -148,9 +149,44 @@
         </ul>
     </div>
     <div id="choice" class="choice">
-        <button class="btn-cross"><img class="img-cross" src="иконки/крест.png" alt=""></button>
+        <button onclick="choice()" class="btn-cross"><img class="img-cross" src="иконки/крест.png" alt=""></button>
         <button class="selectfile-btn"><input class="selectfile" type="file"></button>
         <input class="input-choice" type="text" placeholder="Напишите описание">
+        <button onclick="choice()" class="send">отправить</button>
+    </div>
+    <div id="profile" class="profile">
+        <button onclick="profile()" class="btn-back"><img src="иконки/назад.png" alt="" class="img-back"></button>
+        <button class="icon-profile"></button>
+        <div class="informationProfile">
+            <p>Имя акаунта</p>
+            <h6>Подписчиков: </h6>
+            <h6>user name</h6>
+        </div>
+        <hr class="profile-hr">
+    </div>
+    <div id="main-settings" class="main-settings">
+        <h4 class="p-settings">Настройки</h4>
+        <button onclick="settings()" class="cross-btn"><img src="иконки/крест.png" alt="" class="cross-img"></button>
+        <button class="icon-profile-settings"></button>
+        <div class="settingsProfile">
+            <p>Имя акаунта</p>
+            <h6>user name</h6>
+        </div>
+        <hr class="hrSettings">
+        <div class="setting">
+            <ul>
+                <button class="btn-settings"><img src="иконки/user.png" alt="" class="img-settings">Мой профиль</button>
+                    <button class="btn-settings"><img src="иконки/уведомления.png" alt="" class="img-settings">уведомления</button>
+                        <button class="btn-settings"><img src="иконки/конфиденциальность.png" alt="" class="img-settings">конфиденциальность</button>
+                            <button class="btn-settings"><img src="иконки/настрокиКонтента.png" alt="" class="img-settings">Настройки контента</button>
+                                <button class="btn-settings"><img src="иконки/анимации.png" alt="" class="img-settings">анимации</button>
+                            <button class="btn-settings"><img src="иконки/звезда.png" alt="" class="img-settings">Премиум</button>
+                        <button class="btn-settings"><img src="иконки/подарок.png" alt="" class="img-settings">отправить подарок</button>
+                        <hr class="hr-settings">
+                    <button class="btn-settings"><img src="иконки/идея.png" alt="" class="img-settings">возможности vmeste</button>
+                <button class="btn-settings"><img src="иконки/вопрос.png" alt="" class="img-settings">задать вопрос</button>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
