@@ -1479,7 +1479,182 @@ html,body{
     margin-top: 13%;
     padding-right: 10%;
     width: 30%;
-    height: 35%;
+    height: 32.5%;
+    font-family: roboto,sans-serif;
+    border-radius: 0px 13px 13px 0px;
+    transition: .5s;
+    z-index: 2;
+  }
+
+  .menu-user-btn{
+    margin-left: 3%;
+  }
+
+  .title2{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-family: roboto,sans-serif;
+  }
+
+  .menu-mobill li{
+    list-style-type: none;
+    font-size: 28px;
+  }
+
+  .img-setting {
+    width: 90%;
+  }
+
+  .registration{
+    display: none;
+  }
+
+  .shadow{
+    display: none;
+  }
+
+  .vmeste-this{
+    display: none;
+  }
+
+  .add-div{
+    width: 50%;
+    height: 13%;
+    margin-left: 50%;
+    margin-top: 12%;
+  }
+
+  .notification-btn-mobil{
+    width: 1.2%;
+    margin-left: 89%;
+
+  }
+
+  .add-btn-mobil{
+    width: 1%;
+    margin-left: 78%;
+  }
+
+  .choice{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 80%;
+    height: 55%;
+    font-size: 30px;
+    z-index: 4;
+  }
+
+  .img-cross{
+    width: 100%;
+  }
+
+  .send{
+    margin-left: -28%;
+    margin-top: 15%;
+  }
+
+  .shadow-choice{
+    position: absolute;
+    width: 100%;
+    height: 108%;
+  }
+
+  .main-settings{
+    width: 100.5%;
+    margin-left: -0.5%;
+    margin-top: -2%;
+    height: 100.5%;
+  }
+
+  .settings-shadow{
+    display: none;
+  }
+
+  .cross-btn{
+    margin-top: -23%;
+  }
+}
+
+@media(max-width:410px){
+
+  .header{
+    height: 8%;
+  }
+  
+  .logo{
+    display: none;
+  }
+
+  .vmeste{
+    margin-left: 8%;
+    margin-top: -1.5%;
+    font-size: 40px;
+  }
+
+  .storis{
+    display: none;
+  }
+
+  .storis2{
+    display: none;
+  }
+
+  .storis3{
+    display: none;
+  }
+
+  .form{
+    display: none;
+  }
+
+  .creation{
+    display: none;
+  }
+
+  .acaunt{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .burger-btn{
+    width: 17%;
+    z-index: 3;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+
+  .mobill-menu{
+    display: block;
+    height: 7.2%;
+    margin-top: 215%;
+  }
+
+  .mobill-menu img{
+    width: 6.4%;
+    padding-left: 11%;
+    padding-top: 2%;
+  }
+
+  #logo-mobil{
+    width: 8%;
+    margin-top: 2%;
+  }
+
+  .menu-mobill{
+    position: absolute;
+    display: block;  
+    background-color: rgb(54, 53, 53);
+    margin-left: -50%;
+    margin-top: 10%;
+    padding-right: 10%;
+    width: 30%;
+    height: 38%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
@@ -1557,14 +1732,14 @@ html,body{
   .shadow-choice{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 108%;
   }
 
   .main-settings{
     width: 100.5%;
     margin-left: -0.5%;
     margin-top: -2%;
-    height: 100.8%;
+    height: 110%;
   }
 
   .settings-shadow{
@@ -1572,7 +1747,7 @@ html,body{
   }
 
   .cross-btn{
-    margin-top: -25%;
+    margin-top: -23%;
   }
 }
 
@@ -1691,6 +1866,10 @@ html,body{
 
   .main-settings{
     height: 102.8%;
+  }
+
+  .menu-user-btn{
+    margin-top: 2%;
   }
 }
 
