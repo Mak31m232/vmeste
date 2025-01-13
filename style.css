@@ -1749,6 +1749,10 @@ html,body{
   .cross-btn{
     margin-top: -23%;
   }
+
+  .icon-profile-settings{
+    margin-top: 0.3;
+  }
 }
 
 @media(max-width:360px){
