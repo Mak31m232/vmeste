@@ -1404,7 +1404,7 @@ html,body{
 @media(max-width:450px){
 
   .header{
-    height: 10%;
+    height: 8%;
   }
   
   .logo{
@@ -1457,13 +1457,13 @@ html,body{
   .mobill-menu{
     display: block;
     height: 7.2%;
-    margin-top: 220%;
+    margin-top: 215%;
   }
 
   .mobill-menu img{
     width: 6.4%;
     padding-left: 11%;
-    padding-top: 3%;
+    padding-top: 2%;
   }
 
   #logo-mobil{
@@ -1476,14 +1476,18 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 8%;
+    margin-top: 13%;
     padding-right: 10%;
-    width: 25%;
-    height: 30%;
+    width: 30%;
+    height: 35%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
     z-index: 2;
+  }
+
+  .menu-user-btn{
+    margin-left: 3%;
   }
 
   .title2{
@@ -1555,12 +1559,27 @@ html,body{
     width: 100%;
     height: 100%;
   }
+
+  .main-settings{
+    width: 100.5%;
+    margin-left: -0.5%;
+    margin-top: -2%;
+    height: 100.8%;
+  }
+
+  .settings-shadow{
+    display: none;
+  }
+
+  .cross-btn{
+    margin-top: -25%;
+  }
 }
 
 @media(max-width:360px){
 
   .header{
-    height: 6%;
+    height: 7%;
   }
 
   .logo{
@@ -1629,7 +1648,7 @@ html,body{
     margin-top: 8.8%;
     padding-right: 10%;
     width: 30%;
-    height: 32%;
+    height: 38%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
@@ -1668,6 +1687,10 @@ html,body{
     height: 13%;
     margin-left: 40%;
     margin-top: 10%;
+  }
+
+  .main-settings{
+    height: 102.8%;
   }
 }
 
