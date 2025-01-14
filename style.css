@@ -1717,12 +1717,12 @@ html,body{
   }
 
   .mobill-menu button img{
-    width: 29%;
+    width: 27%;
   }
 
   .profile{
     width: 101%;
-    height: 100.5%;
+    height: 108%;
     margin-left: -1%;
     margin-top: -1%;
   }
@@ -1739,7 +1739,7 @@ html,body{
     width: 65px;
     height: 68px;
     border-radius: 25px;
-    margin-top: 7%;
+    margin-top: 5%;
   }
 
   .informationProfile{
@@ -1747,7 +1747,7 @@ html,body{
   }
 
   .servisProfile button{
-    margin-left: 6%;
+    margin-left: 5%;
   }
 
   #logo-mobil{
@@ -1760,7 +1760,7 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 11%;
+    margin-top: 11.5%;
     padding-right: 10%;
     width: 27.5%;
     height: 30%;
@@ -1787,10 +1787,6 @@ html,body{
     font-size: 28px;
   }
 
-  .img-setting {
-    width: 90%;
-  }
-
   .registration{
     display: none;
   }
@@ -1808,7 +1804,7 @@ html,body{
     height: 13%;
     margin-left: 50%;
     background-color: rgb(53, 53, 53);
-    margin-top: 12%;
+    margin-top: 10%;
   }
 
   .notification-btn-mobil{
