@@ -1692,7 +1692,7 @@ html,body{
   .mobill-menu{
     position: sticky;
     display: block;
-    height: 7.4%;
+    height: 8%;
     margin-top: 210%;
   }
 
@@ -1760,7 +1760,7 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 11.5%;
+    margin-top: 10%;
     padding-right: 10%;
     width: 27.5%;
     height: 30%;
