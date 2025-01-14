@@ -70,7 +70,7 @@
     <hr class="hr">
     <div id="user-you" class="user-you">
         <ul>
-            <li><button class="btn-you"><a class="a-you" href=""></a>Вы <img class="you" src="иконки/стрелка в право.png" alt=""></button></li>
+            <li><button onclick="profilePlus()" class="btn-you"><a class="a-you" href=""></a>Вы <img class="you" src="иконки/стрелка в право.png" alt=""></button></li>
                 <li><a href="" class="a"><img class="icons-you" src="иконки/истории.png" alt="">Истории</a><br></li>
                     <li><a href="" class="a"><img class="icons-you" src="иконки/плейлисты.png" alt="">Плейлисты</a></li>
                     <li><a href="" class="a"><img class="icons-you" src="иконки/ваши видео.png" alt="">Ваши видео</a></li>
@@ -133,9 +133,7 @@
                     <li><a class="a" href="">Кинотеатр</a></li>
                         <li><a class="a" href="">Музыка</a></li>
                             <li><a class="a" href="">Библиотека</a></li>
-                                <li><a class="a" href="">Избранное</a></li>
-                        <li><a class="a" href="">Премиум</a></li>
-                    <li><a class="a" href="">Кошелек</a></li>
+                        <li><a class="a" href="">Избранное</a></li>
                     <button onclick="settingsPlus()" class="menu-user-btn">Настройки</button><br>
                 </ul>
             </div>
@@ -147,7 +145,7 @@
                 <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/ваши видео.png" alt=""></a></li>
                     <li><a class="mobill-menu-links" href=""><img class="mobil-icon" id="logo-mobil" src="иконки/лого.png" alt=""></a></li>
                 <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/поиск.png" alt=""></a></li>
-            <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/user.png" alt=""></a></li>
+            <button onclick=" profilePlus()"><img class="mobil-icon" src="иконки/user.png" alt=""></button>
         </ul>
     </div>
     <div id="choice" class="choice">
@@ -163,6 +161,14 @@
             <p>Имя акаунта</p>
             <h6>Подписчиков: </h6>
             <h6>user name</h6>
+        </div>
+        <div class="servisProfile">
+            <ul>
+                <button>Главная</button>
+                    <button>плейлисты</button>
+                    <button>истории</button>
+                <button>Записи</button>
+            </ul>
         </div>
         <hr class="profile-hr">
     </div>

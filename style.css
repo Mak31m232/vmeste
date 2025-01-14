@@ -535,8 +535,23 @@ html,body{
   font-size: 25px;
 }
 
+.servisProfile button{
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1%;
+  margin-left: 0.8%;
+  transition: .2s;
+}
+
+.servisProfile button:hover{
+  color: #7d2ae8;
+}
+
 .profile-hr{
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .main-settings{
@@ -1457,13 +1472,57 @@ html,body{
   .mobill-menu{
     display: block;
     height: 7.2%;
-    margin-top: 215%;
+    margin-top: 216%;
   }
 
   .mobill-menu img{
     width: 6.4%;
     padding-left: 11%;
     padding-top: 2%;
+  }
+
+  .mobill-menu button{
+    position: absolute;
+    margin-top: 9.5%;
+    display: inline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  .mobill-menu button img{
+    width: 27%;
+  }
+
+  .profile{
+    width: 101%;
+    height: 100.5%;
+    margin-left: -1%;
+    margin-top: -1%;
+  }
+
+  .img-back{
+    width: 100%;
+  }
+
+  .btn-back{
+    margin-top: 5%;
+  }
+
+  .icon-profile{
+    width: 65px;
+    height: 68px;
+    border-radius: 25px;
+    margin-top: 7%;
+  }
+
+  .informationProfile{
+    margin-left: 25%;
+  }
+
+  .servisProfile button{
+    margin-left: 6%;
   }
 
   #logo-mobil{
@@ -1476,10 +1535,10 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 13%;
+    margin-top: 11%;
     padding-right: 10%;
-    width: 30%;
-    height: 32.5%;
+    width: 28%;
+    height: 28%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
@@ -1488,6 +1547,7 @@ html,body{
 
   .menu-user-btn{
     margin-left: 3%;
+    font-size: 19px;
   }
 
   .title2{
@@ -1557,14 +1617,14 @@ html,body{
   .shadow-choice{
     position: absolute;
     width: 100%;
-    height: 108%;
+    height: 100%;
   }
 
   .main-settings{
     width: 100.5%;
     margin-left: -0.5%;
     margin-top: -2%;
-    height: 100.5%;
+    height: 100.8%;
   }
 
   .settings-shadow{
@@ -1630,15 +1690,64 @@ html,body{
   }
 
   .mobill-menu{
+    position: sticky;
     display: block;
-    height: 7.2%;
-    margin-top: 215%;
+    height: 7.4%;
+    margin-top: 210%;
+  }
+
+  .mobill-menu li{
+    padding-top: -5%;
   }
 
   .mobill-menu img{
     width: 6.4%;
     padding-left: 11%;
     padding-top: 2%;
+  }
+
+  .mobill-menu button{
+    position: absolute;
+    margin-top: 9%;
+    display: inline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  .mobill-menu button img{
+    width: 29%;
+  }
+
+  .profile{
+    width: 101%;
+    height: 100.5%;
+    margin-left: -1%;
+    margin-top: -1%;
+  }
+
+  .img-back{
+    width: 100%;
+  }
+
+  .btn-back{
+    margin-top: 5%;
+  }
+
+  .icon-profile{
+    width: 65px;
+    height: 68px;
+    border-radius: 25px;
+    margin-top: 7%;
+  }
+
+  .informationProfile{
+    margin-left: 25%;
+  }
+
+  .servisProfile button{
+    margin-left: 6%;
   }
 
   #logo-mobil{
@@ -1651,10 +1760,10 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 10%;
+    margin-top: 11%;
     padding-right: 10%;
-    width: 30%;
-    height: 38%;
+    width: 27.5%;
+    height: 30%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
@@ -1663,6 +1772,8 @@ html,body{
 
   .menu-user-btn{
     margin-left: 3%;
+    margin-top: 5%;
+    font-size: 20px;
   }
 
   .title2{
@@ -1696,7 +1807,8 @@ html,body{
     width: 50%;
     height: 13%;
     margin-left: 50%;
-    margin-top: 10.5%;
+    background-color: rgb(53, 53, 53);
+    margin-top: 12%;
   }
 
   .notification-btn-mobil{
@@ -1739,7 +1851,7 @@ html,body{
     width: 100.5%;
     margin-left: -0.5%;
     margin-top: -2%;
-    height: 110%;
+    height: 101%;
   }
 
   .settings-shadow{
@@ -1814,6 +1926,50 @@ html,body{
     margin-top: 220%;
   }
 
+  .mobill-menu button{
+    position: absolute;
+    margin-top: 9%;
+    display: inline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  .mobill-menu button img{
+    width: 29%;
+  }
+
+  .profile{
+    width: 101%;
+    height: 100.5%;
+    margin-left: -1%;
+    margin-top: -1%;
+  }
+
+  .img-back{
+    width: 100%;
+  }
+
+  .btn-back{
+    margin-top: 5%;
+  }
+
+  .icon-profile{
+    width: 65px;
+    height: 68px;
+    border-radius: 25px;
+    margin-top: 7%;
+  }
+
+  .informationProfile{
+    margin-left: 25%;
+  }
+
+  .servisProfile button{
+    margin-left: 4%;
+  }
+
   #logo-mobil{
     width: 7.8%;
     margin-top: 2%;
@@ -1827,7 +1983,7 @@ html,body{
     margin-top: 8.8%;
     padding-right: 10%;
     width: 30%;
-    height: 38%;
+    height: 30%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
@@ -1941,12 +2097,56 @@ html,body{
     position: sticky;
     display: block;
     height: 8%;
-    margin-top: 280%;
+    margin-top: 209%;
   }
 
   .mobill-menu img{
     width: 6.3%;
     padding-right: -2%;
+  }
+
+  .mobill-menu button{
+    position: absolute;
+    margin-top: 9%;
+    display: inline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  .mobill-menu button img{
+    width: 29%;
+  }
+
+  .profile{
+    width: 101%;
+    height: 100.3%;
+    margin-left: -1%;
+    margin-top: -1%;
+  }
+
+  .img-back{
+    width: 100%;
+  }
+
+  .btn-back{
+    margin-top: 5%;
+  }
+
+  .icon-profile{
+    width: 65px;
+    height: 68px;
+    border-radius: 25px;
+    margin-top: 7%;
+  }
+
+  .informationProfile{
+    margin-left: 28%;
+  }
+
+  .servisProfile button{
+    margin-left: 2%;
   }
 
   .btn-setting{
